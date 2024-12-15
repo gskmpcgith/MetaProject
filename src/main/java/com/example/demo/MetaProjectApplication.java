@@ -31,6 +31,7 @@ public class MetaProjectApplication implements CommandLineRunner {
 	
 	public static void main(String[] args) {
 		//SpringApplication.run(MetaProjectApplication.class, args);
+		System.out.println("Hello");
 		
 		ApplicationContext ctx = SpringApplication.run(MetaProjectApplication.class, args);
         
